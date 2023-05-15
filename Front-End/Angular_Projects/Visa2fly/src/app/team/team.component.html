@@ -2,17 +2,17 @@
 <section id="team" class="team">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 content">
+      <div class="col-md-8 content">
         <p class="theme-heading">Team</p>
         <h2 class="section-heading">Get Quality Education</h2>
         <p>
-          Problems trying to resolve the conflict between the two major
-          realms of Classical physics: Newtonian mechanics
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="row">
-        <div class="card col-2">
-          <div class="card-body">
+      <div class="row containerDesktop">
+        <div class="card col-3">
+          <div class="card-body text-center">
             <img
               class="img-fluid"
               src="./assets/img/user-cover-1.png"
@@ -21,15 +21,13 @@
             <h5 class="fw-bold">Julian Jameson</h5>
             <p class="text-muted">Profession</p>
             <div class="d-flex justify-content-center">
-              <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+              <app-social-media></app-social-media>
             </div>
           </div>
         </div>
 
-        <div class="card col-2">
-          <div class="card-body">
+        <div class="card col-3">
+          <div class="card-body text-center">
             <img
               class="img-fluid"
               src="./assets/img/user-cover-2.png"
@@ -38,15 +36,13 @@
             <h5 class="fw-bold">Julian Jameson</h5>
             <p class="text-muted">Profession</p>
             <div class="d-flex justify-content-center">
-              <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+              <app-social-media></app-social-media>
             </div>
           </div>
         </div>
 
-        <div class="card col-2">
-          <div class="card-body">
+        <div class="card col-3">
+          <div class="card-body text-center">
             <img
               class="img-fluid"
               src="./assets/img/user-cover-3.png"
@@ -55,15 +51,13 @@
             <h5 class="fw-bold">Julian Jameson</h5>
             <p class="text-muted">Profession</p>
             <div class="d-flex justify-content-center">
-              <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+              <app-social-media></app-social-media>
             </div>
           </div>
         </div>
 
         <div class="card col-3">
-          <div class="card-body">
+          <div class="card-body text-center">
             <img
               class="img-fluid"
               src="./assets/img/user-cover-4.png"
@@ -72,11 +66,103 @@
             <h5 class="fw-bold">Julian Jameson</h5>
             <p class="text-muted">Profession</p>
             <div class="d-flex justify-content-center">
-              <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-              <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+              <app-social-media></app-social-media>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row containerMobile">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/user-cover-1.png"
+                    alt="user 1"
+                  />
+                  <h5 class="fw-bold">Julian Jameson</h5>
+                  <p class="text-muted">Profession</p>
+                  <div class="d-flex justify-content-center">
+                    <app-social-media></app-social-media>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/user-cover-2.png"
+                    alt="user 2"
+                  />
+                  <h5 class="fw-bold">Julian Jameson</h5>
+                  <p class="text-muted">Profession</p>
+                  <div class="d-flex justify-content-center">
+                    <app-social-media></app-social-media>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/user-cover-3.png"
+                    alt="user 3"
+                  />
+                  <h5 class="fw-bold">Julian Jameson</h5>
+                  <p class="text-muted">Profession</p>
+                  <div class="d-flex justify-content-center">
+                    <app-social-media></app-social-media>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    class="img-fluid"
+                    src="./assets/img/user-cover-4.png"
+                    alt="user 4"
+                  />
+                  <h5 class="fw-bold">Julian Jameson</h5>
+                  <p class="text-muted">Profession</p>
+                  <div class="d-flex justify-content-center">
+                    <app-social-media></app-social-media>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

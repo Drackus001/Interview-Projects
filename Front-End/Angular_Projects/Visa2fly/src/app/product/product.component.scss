@@ -1,0 +1,15 @@
+.learn-more {
+  position: relative;
+
+  &::after {
+    content: ">";
+    position: absolute;
+    top: 2px;
+    right: -10px;
+  }
+  &:hover {
+    &::after{
+      right: -15px;
+    }
+  }
+}

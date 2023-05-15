@@ -7,13 +7,24 @@
   padding: 160px 0px;
 }
 
-.team {
-  padding: 112px 0px;
-  /* height: 820px; */
+@media (max-width: 992px) {
+  .product {
+    padding: 80px 0px 0px;
+  }
+  .team {
+    padding: 56px 0px 0px;
+  }
+  .newsletter {
+    padding: 80px 0px 0px;
+  }
 }
 
-.news-letter {
-  padding: 160px 0px;
+.team {
+  padding: 112px 0px 0px;
+}
+
+.newsletter {
+  padding: 160px 0px 0px;
 }
 
 .footer {
@@ -23,7 +34,8 @@
 .product-card {
   background: #ffffff;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-  padding: 40px;
+  padding: 32px;
+  margin: 8px;
 }
 
 .product-dash {
@@ -77,10 +89,22 @@
 }
 
 .hero-btn {
-  border-radius: 5px;
-  padding: 15px 40px;
+  border-radius: 6px;
+  padding: 16px 36px;
   align-items: center;
   height: 52px;
+}
+
+@media (min-width: 992px) {
+  .containerMobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .containerDesktop {
+    display: none !important;
+  }
 }
 
 .hero-btn-primary {
@@ -108,18 +132,23 @@
   color: #96bb7c;
 }
 
-.text-grey {
+.hero-font {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
-
   letter-spacing: 0.2px;
-
-  /* second-text-color */
-
-  color: #737373;
   text-decoration: none;
+
+  @media (max-width: 992px) {
+    padding: 12px 18px;
+  }
+
+}
+
+.text-grey {
+  color: #737373;
 }
 
 /* newsletter style */
@@ -157,11 +186,9 @@
   border-radius: 0px 5px 5px 0px;
 }
 
-/* team */
-.team .card {
-  background: #ffffff;
-  /* accentued-drop-shadow */
-
-  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-  border-radius: 20px;
+// Media Queries
+@media (max-width: 992px) {
+  .text-smm-center {
+    text-align: center;
+  }
 }
