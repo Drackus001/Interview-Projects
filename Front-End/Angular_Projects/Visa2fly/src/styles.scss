@@ -29,7 +29,7 @@
 .product-dash {
   width: 94px;
   height: 7px;
-  background: #E74040;
+  background: #e74040;
 }
 
 .product-heading {
@@ -37,23 +37,23 @@
 }
 
 .section-heading {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 0.2px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .learn-more {
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #96BB7C;
+  color: #96bb7c;
   text-decoration: none;
   font-size: 20px;
   border: 0px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .product-card h4 {
@@ -63,7 +63,7 @@
 .product-card .dash {
   width: 50px;
   height: 2px;
-  background: #E74040;
+  background: #e74040;
   margin: 8px 0px;
 }
 
@@ -104,10 +104,11 @@
 }
 
 /* Common Styles */
-.theme-heading{
-  color: #96BB7C;
+.theme-heading {
+  color: #96bb7c;
 }
-.text-grey{
+
+.text-grey {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
@@ -123,41 +124,44 @@
 
 /* newsletter style */
 
-.newsletter{
-  background: #FFF2F3;
+.newsletter {
+  background: #fff2f3;
 }
+
 .newsletter {
   padding: 160px 0;
 }
-.newsletter .content .input-group{
+
+.newsletter .content .input-group {
   padding: 80px 0 0;
 }
+
 .newsletter .content .input-group .form-control {
   height: 58px;
-  background: #F9F9F9;
-  border: 1px solid #E6E6E6;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
   border-radius: 5px;
 }
 
 .newsletter .content .input-group .form-control:focus {
   box-shadow: none;
-  border: 2px solid #96BB7C;
+  border: 2px solid #96bb7c;
 }
 
 .newsletter .content .input-group .btn {
   min-height: 58px;
   color: #fff;
   font-weight: 600;
-  background: #96BB7C !important;
-  border: 1px solid #E6E6E6;
+  background: #96bb7c !important;
+  border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
 }
 
 /* team */
-.team .card{
-  background: #FFFFFF;
-/* accentued-drop-shadow */
+.team .card {
+  background: #ffffff;
+  /* accentued-drop-shadow */
 
-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-border-radius: 20px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
 }
