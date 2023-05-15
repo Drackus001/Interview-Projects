@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+.hero-page {
+  background: #fff2f3;
+}
+
+.product {
+  padding: 160px 0px;
+}
+
+.team {
+  padding: 112px 0px;
+  /* height: 820px; */
+}
+
+.news-letter {
+  padding: 160px 0px;
+}
+
+.footer {
+  padding: 48px 0px 0px;
+}
+
+.product-card {
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 40px;
+}
+
+.product-dash {
+  width: 94px;
+  height: 7px;
+  background: #E74040;
+}
+
+.product-heading {
+  display: grid;
+}
+
+.section-heading {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.learn-more {
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #96BB7C;
+  text-decoration: none;
+  font-size: 20px;
+  border: 0px;
+  background-color: #FFFFFF;
+}
+
+.product-card h4 {
+  font-size: 16px;
+}
+
+.product-card .dash {
+  width: 50px;
+  height: 2px;
+  background: #E74040;
+  margin: 8px 0px;
+}
+
+.product-card .icon {
+  width: 70px;
+  height: 76px;
+  margin-bottom: 8px;
+  background: #96bb7c;
+  border-radius: 8px;
+  padding: 22px 18px;
+}
+
+.hero-btn {
+  border-radius: 5px;
+  padding: 15px 40px;
+  align-items: center;
+  height: 52px;
+}
+
+.hero-btn-primary {
+  background-color: #96bb7c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero-btn-primary:hover {
+  background-color: #96bb0c;
+}
+
+.hero-btn-secondary {
+  border: 1px solid #96bb7c;
+  color: #96bb7c;
+  text-decoration: none;
+}
+
+.hero-btn-secondary:hover {
+  border: 1px solid #96bb0c;
+}
+
+/* Common Styles */
+.theme-heading{
+  color: #96BB7C;
+}
+.text-grey{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+  text-decoration: none;
+}
+
+/* newsletter style */
+
+.newsletter{
+  background: #FFF2F3;
+}
+.newsletter {
+  padding: 160px 0;
+}
+.newsletter .content .input-group{
+  padding: 80px 0 0;
+}
+.newsletter .content .input-group .form-control {
+  height: 58px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+}
+
+.newsletter .content .input-group .form-control:focus {
+  box-shadow: none;
+  border: 2px solid #96BB7C;
+}
+
+.newsletter .content .input-group .btn {
+  min-height: 58px;
+  color: #fff;
+  font-weight: 600;
+  background: #96BB7C !important;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* team */
+.team .card{
+  background: #FFFFFF;
+/* accentued-drop-shadow */
+
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+border-radius: 20px;
+}
