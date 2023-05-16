@@ -10,13 +10,20 @@
           of Classical physics: Newtonian mechanics
         </p>
         <div class="input-group">
-          <input type="email" class="form-control" placeholder="Your email" />
-
-          
-
+          <input
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+            [(ngModel)]="email"
+            (input)="change($event)"
+            class="form-control"
+            placeholder="Your email"
+          />
           <span class="input-group-btn">
             <button class="btn" type="submit">Subscribe</button>
           </span>
+        </div>
+        <div *ngIf="!isValid" class="email-error-message">
+          <p class="text-danger">{{ errorMessage }}</p>
         </div>
       </div>
     </div>

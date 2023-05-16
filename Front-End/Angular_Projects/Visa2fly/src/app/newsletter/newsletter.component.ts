@@ -7,20 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsletterComponent implements OnInit {
 
+  public email = "";
+  public isValid = true;
+  public errorMessage = "";
+
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-
   }
 
-  email: string = '';
-
-  public submitForm(form: any) {
-    console.log(form);
-    if (form.valid) {
-      // Perform further actions if the form is valid
-    }
-
+  change(event: any) {
+    this.email = event.target.value;
+    this.errorMessage = event.target.validationMessage;
+    this.isValid = false;
   }
-  
+
 }
