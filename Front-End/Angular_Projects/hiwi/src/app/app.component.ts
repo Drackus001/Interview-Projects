@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hiwi';
+  title = 'temp';
+  task: string = "";
+
+  public btnClick(event: any): void {
+    this.task = 'Task1';
+    console.log('btn clicked');
+  }
 }
