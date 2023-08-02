@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f4f7fc;
+  font-style: normal;
+  font-weight: 700;
+}
+
+::ng-deep * {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,166 @@
+.wrapper {
+  position: relative;
+}
+
+/* Header css */
+.school-header {
+  position: relative;
+  display: block;
+  height: 156px;
+  background: linear-gradient(270deg, #ffa36e 0%, #ff728e 100%);
+  border-radius: 0% 0% 0% 16px;
+}
+
+.school--container {
+  padding: 24px 0px 0px 8px;
+  display: flex;
+}
+
+.school--icon {
+  height: 48px;
+  width: 48px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.school--name {
+  color: white;
+  padding: 8px 0px 0px 12px;
+}
+
+/* Profile css */
+.profile-container {
+  border-radius: 16px;
+  background: #fff;
+  height: 94px;
+  padding: 0px 12px;
+  top: -14px;
+  margin: 0px 12px;
+  position: relative;
+}
+.profile--content {
+  display: flex;
+}
+.profile--img {
+  fill: #fff;
+  filter: drop-shadow(0px 1px 13px rgba(0, 0, 0, 0.06));
+  /* background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat; */
+}
+
+/* Card css */
+.card-container {
+  height: 280px;
+  margin-top: 12px;
+  border-radius: 16px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #cc208e 0%, #6713d2 100%);
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+}
+
+.card--content {
+  padding: 28px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 12px;
+}
+
+.pre-text {
+  margin: 0px;
+}
+
+.pre-text > span {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 123.187%; /* 40.652px */
+}
+
+.percentage {
+  font-size: 72px;
+  font-weight: 800;
+  margin: 0px 24px 0px 0px;
+}
+
+.activate-now {
+  width: 150px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 29px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  border: 0px;
+}
+
+.activate-now:hover {
+  cursor: pointer;
+}
+
+.svg-background {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+}
+
+/* Popup css */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-header {
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  border-radius: 16px;
+  background: #fff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
