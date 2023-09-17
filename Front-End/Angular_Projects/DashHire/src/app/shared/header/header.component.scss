@@ -10,3 +10,45 @@ nav {
   font-size: 24px;
   padding-right: 20px;
 }
+
+.notification-icon {
+  margin-right: 20px;
+  padding: 16px;
+  font-size: 20px;
+}
+.profile-tab {
+  display: flex;
+  padding-right: 40px;
+
+  .user-icon {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+  }
+  .user-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+    .designation {
+      font-size: 10px;
+      color: #00afef;
+    }
+    .user-name {
+      font-size: 14px;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    border: solid grey;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}

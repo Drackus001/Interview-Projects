@@ -1,0 +1,197 @@
+.reports-container {
+  padding-left: 32px;
+
+  padding-right: 16px;
+
+  background-color: #f5f6fa;
+  .report-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 16px 0px;
+
+    .div-left {
+      display: flex;
+      .report-year {
+        text-align: center;
+        background-color: #fff;
+        padding: 12px;
+        margin-right: 20px;
+        position: relative;
+        small {
+          padding-left: 12px;
+          padding-right: 24px;
+          font-weight: 600;
+          &::after {
+            content: "";
+            position: absolute;
+            right: 16px;
+            top: 20px;
+            border: solid grey;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(310deg);
+            -webkit-transform: rotate(310deg);
+          }
+        }
+      }
+    }
+
+    .download-btn {
+      padding: 8px;
+      border-radius: 50%;
+      background-color: #fff;
+      border-width: 0px;
+      height: 40px;
+      width: 40px;
+      box-shadow: 1px 2px 4px 0px;
+    }
+  }
+
+  .report-filters {
+    background-color: #fff;
+    padding: 16px 16px;
+    font-size: 12px;
+    .row {
+      padding: 8px 0px;
+    }
+    small {
+      font-weight: 600;
+      font-size: 12px;
+    }
+    p {
+      margin-bottom: 8px;
+    }
+    button {
+      position: relative;
+      padding: 12px 0px 12px 16px;
+      background-color: #fff;
+      border: 1px solid #353131;
+      width: 280px;
+      text-align: left;
+
+      small {
+        &::after {
+          content: "";
+          position: absolute;
+          right: 16px;
+          top: 14px;
+          border: solid grey;
+          border-width: 0 3px 3px 0;
+          display: inline-block;
+          padding: 3px;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  .table-container {
+    margin: 20px 0px;
+
+    th {
+      font-weight: 600;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    td {
+      padding: 10px 4px;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  .report-pagination {
+    padding: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    button {
+      padding: 8px 0px 8px 16px;
+      background-color: #fff;
+      border: 1px solid #353131;
+      width: 80px;
+      text-align: left;
+      position: relative;
+      small {
+        font-weight: 600;
+        &::after {
+          content: "";
+          position: absolute;
+          right: 16px;
+          top: 14px;
+          border: solid grey;
+          border-width: 0 3px 3px 0;
+          display: inline-block;
+          padding: 3px;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+        }
+      }
+    }
+    .row-count {
+      font-size: 12px;
+      padding-left: 12px;
+      text-align: center;
+    }
+    .pagination {
+      a {
+        background-color: #efefef;
+        color: grey;
+        padding: 8px 8px;
+        text-decoration: none;
+        font-size: 12px;
+        &.first {
+          margin-left: 8px;
+          border-top-left-radius: 25%;
+          border-bottom-left-radius: 25%;
+        }
+        &.last {
+          margin-right: 8px;
+          border-top-right-radius: 25%;
+          border-bottom-right-radius: 25%;
+        }
+        &.active {
+          background-color: #00afef;
+          color: white;
+          // border-radius: 50%;
+        }
+        &.arrow-right {
+          position: relative;
+          border-radius: 50%;
+          width: 22px;
+          &::after {
+            content: "";
+            position: absolute;
+            left: 6px;
+            top: 14px;
+            border: solid grey;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(315deg);
+            -webkit-transform: rotate(315deg);
+          }
+        }
+        &.arrow-left {
+          position: relative;
+          border-radius: 50%;
+          width: 22px;
+          &::after {
+            content: "";
+            position: absolute;
+            top: 14px;
+            left: 10px;
+            border: solid grey;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+          }
+        }
+      }
+    }
+  }
+}

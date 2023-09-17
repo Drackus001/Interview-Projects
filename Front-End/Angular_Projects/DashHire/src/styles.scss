@@ -3,3 +3,12 @@
 .underline-none {
   text-decoration: none;
 }
+
+.sort-icon {
+  background-image: url("/assets/sort-icon.png");
+  height: 12px;
+  width: 12px;
+  top: 2px;
+  position: relative;
+  display: inline-block;
+}

@@ -1,6 +1,6 @@
 .sidebar-container {
   background-color: #00afef;
-  height: 100vh;
+  height: 100%;
 
   .active {
     color: grey;
@@ -11,6 +11,21 @@
       right: 16px;
       top: 16px;
       border: solid grey;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+  }
+
+  .link-light {
+    &::after {
+      content: "";
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      border: solid #fff;
       border-width: 0 3px 3px 0;
       display: inline-block;
       padding: 3px;
